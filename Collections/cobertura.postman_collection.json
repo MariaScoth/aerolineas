@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "8ebe8f4e-bf4a-407a-bf3f-8ecb4763242a",
+		"name": "cobertura",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "43890935"
+	},
+	"item": [
+		{
+			"name": "AddAirlinestoAirports",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "{{base_Url}}airlines/3/airports/1"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_Url",
+			"value": "http://localhost:3002/",
+			"type": "string"
+		}
+	]
+}
